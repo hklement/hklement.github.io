@@ -6,17 +6,96 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Hauke Klement</title>
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/yeti/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/fontello.min.css" rel="stylesheet">
+		<link href="css/index.min.css" rel="stylesheet">
+		<link href="css/timeline.min.css" rel="stylesheet">
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+		<script src="js/index.min.js"></script>
 	</head>
-	<body>
+	<body data-spy="scroll" data-target=".navbar">
 		<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
+					<button class="navbar-toggle" data-target="#navbar-collapse" data-toggle="collapse" type="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 					<a class="navbar-brand" href="#">hklement.de</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#about-me">About Me</a></li>
+						<li><a href="#profiles">Profiles</a></li>
+						<li><a href="#studies">Studies</a></li>
+						<li><a href="#projects">Projects</a></li>
+					</ul>
 				</div>
 			</div>
 		</nav>
-		<div class="container"></div>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Hej, I am Hauke.</h1>
+				<p class="lead">I am a software engineering student and freelance software developer from Potsdam, Germany. I enjoy playing with technology and creating software, such as multi-tier Web applications, mobile applications, and APIs. To build these things, I favor dynamic languages; especially Ruby and JavaScript. Moreover, I appreciate productive tools and frameworks, agile methodologies, as well as clean, tested code.</p>
+			</div>
+		</div>
+		<div class="container" id="sections">
+			<div id="about-me">
+				<h1>About Me</h1>
+				<div class="row">
+					<img class="col-lg-4 col-md-4 col-sm-4 col-xs-4 img-circle img-responsive" src="images/portrait.jpg">
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+						<ul class="fa-ul">
+							<li><i class="fa-li glyphicon glyphicon-user"></i>Hauke Klement</li>
+							<li><i class="fa-li glyphicon glyphicon-send"></i><a class="mailto" href="#">mail [at] hklement [dot] de</a></li>
+							<li><i class="fa-li glyphicon glyphicon-map-marker"></i>I am living in the beautiful city of <a href="https://www.potsdam.de/" target="_blank">Potsdam, Germany</a>.</li>
+							<li><i class="fa fa-li fa-thumbs-o-up"></i>I am a technophile, <a href="https://open.spotify.com/user/hklement" target="_blank">music addict</a>, cineaste, vegetarian, and recreational runner.</li>
+							<li><i class="fa-li icon-graduation-cap"></i>I hold a bachelor's degree in software engineering and am currently finishing the follow-up master's program.</li>
+							<li><i class="fa-li glyphicon glyphicon-briefcase"></i>Besides accomplishing my studies, I work as a freelance software developer.</li>
+							<li><i class="fa fa-code fa-li"></i>My favored programming languages and frameworks include Ruby, Ruby on Rails, Sinatra, RSpec, JavaScript, CoffeeScript, jQuery, Java, SQL, HTML, and CSS. In addition, I like to give up-and-coming frameworks a try.</li>
+							<li><i class="fa-li glyphicon glyphicon-flash"></i>My personal ambition is to deliver clean, high-quality code. Moreover, it is important to me to finish what I start. I am a good team player but also appreciate the advantages of a one-man show.</li>
+							<li><i class="fa fa-apple fa-li"></i>My preferred development equipment is my MacBook Pro and the <a href="https://github.com/textmate/textmate" target="_blank">TextMate</a> editor.</li>
+							<li><i class="fa fa-coffee fa-li"></i>According to the cliché, I truly enjoy <a	 href="http://www.clubmate.de/" target="_blank">Club Mate</a> or a good coffee.</li>
+							<li><i class="fa fa-leaf fa-li"></i>However, I favor a decent salad over pizza.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="profiles">
+				<h1>Profiles</h1>
+				<p>This is where you can find me on the Web. Feel free to get in touch with me.</p>
+				<br>
+				<ul class="list-inline row">
+					<li class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+						<a href="https://www.facebook.com/hauke" target="_blank"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+						<a href="https://github.com/hklement" target="_blank"><i class="fa fa-github"></i></a>
+					</li>
+					<li class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+						<a href="https://twitter.com/hklement" target="_blank"><i class="fa fa-twitter"></i></a>
+					</li>
+					<li class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+						<a href="https://www.xing.com/profile/Hauke_Klement" target="_blank"><i class="fa fa-xing"></i></a>
+					</li>
+				</ul>
+			</div>
+			<div id="studies">
+				<h1>Studies</h1>
+				<div class="ajax">
+					<p class="text-center"><i class="fa fa-cog fa-spin fa-lg"></i></p>
+				</div>
+			<div id="projects">
+				<h1>Projects</h1>
+				<div class="ajax">
+					<p class="text-center"><i class="fa fa-cog fa-spin fa-lg"></i></p>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

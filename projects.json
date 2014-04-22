@@ -1,0 +1,93 @@
+[
+	{
+		"from": "09/2011",
+		"html": "<p>I started to work freelance at [Forkmerge](http://forkmerge.com/), the creators of the indie news aggregator [Newstral](https://newstral.com/). Newstral offers an up-to-date overview of the most relevant headlines, as well as a location-based press review.</p><p>I was involved into evolving Newstral's ancestor [DNND](http://www.dnnd.de/zombie/) into a modern Web application. Part of my work was to implement a social news sharing feature, based on Facebook's [Graph API](https://developers.facebook.com/docs/graph-api/).</p><p>Newstral is still my favorite news aggregator and constantly evolving. If you don't know it yet, I highly recommend giving it a try.</p>",
+		"icon": "fa fa-desktop",
+		"technologies": "Ruby on Rails, CoffeeScript, PHP, Facebook Graph API",
+		"title": "Newstral",
+		"to": "04/2012"
+	},
+	{
+		"from": "04/2012",
+		"html": "<p>In 2012, I won an [app programming competition](http://www.dcl.hpi.uni-potsdam.de/research/vitCatch/) hosted by the [Hasso Plattner Institute](https://www.hpi.uni-potsdam.de/)'s [Operating Systems and Middleware group](https://www.dcl.hpi.uni-potsdam.de/) and the [Ethianum clinic Heidelberg](http://ethianum-klinik-heidelberg.de/).</p><p>The scope of the competition was to develop a mobile application for paperless day-to-day collection of vital signs. Requirements to the application included automated acquisition of measurements, graphical representation of previous measurements, as well as data export to a central clinical information system.</p><p>I built an Android application for tablet devices which wirelessly obtains data from a smart measuring device, visualizes collected data by means of a line graph, and synchronizes with a clinical information system using [HL7](https://www.hl7.org/) messages.</p>",
+		"icon": "fa fa-trophy",
+		"technologies": "Android, HL7",
+		"to": "09/2012",
+		"title": "App Programming Competition"
+	},
+	{
+		"from": "08/2012",
+		"html": "<p>The project I am longest involved in is [openHPI](https://openhpi.de/), the [Hasso Plattner Institute](https://www.hpi.uni-potsdam.de/)'s platform for Massive Open Online Courses. From the very beginning of the large-scale learning platform I am part of its core development team. Since openHPI's release, my area of responsibility comprises platform evolution and maintenance.</p>",
+		"icon": "fa fa-desktop",
+		"technologies": "Ruby on Rails, JavaScript",
+		"title": "openHPI.de"
+	},
+	{
+		"from": "10/2012",
+		"html": "<p>Following a programming competition (see below), I worked for [Medule](http://www.medule.de/) in order to evolve the competition-winning app prototype into a full-fledged mobile application, which is called [Vitule](http://www.medule.de/apps/vituleapp/). In this scope, I extended the prototype app's synchronization features, improved its robustness and usability, as well as implemented Medule's corporate design.</p>",
+		"icon": "fa fa-tablet",
+		"technologies": "Android, HL7",
+		"title": "Vitule",
+		"to": "03/2013"
+	},
+	{
+		"from": "01/2013",
+		"html": "<p>In 2013, openHPI started a Chinese spin-off, [openHPI.cn](https://openhpi.cn/). I was commissioned to customize the established [German openHPI platform](https://openhpi.de/) for the Chinese market, as well as to handle the deployment.</p>",
+		"icon": "fa fa-desktop",
+		"technologies": "Ruby on Rails, JavaScript",
+		"title": "openHPI.cn"
+	},
+	{
+		"from": "03/2013",
+		"html": "<p>[openSAP](https://open.sap.com/), [SAP](http://www.sap.com/)'s platform for Massive Open Online Courses, is another [openHPI](https://openhpi.de/) spin-off. I was appointed to customize the openHPI platform to SAP's requirements and currently maintain the award-winning learning platform.</p>",
+		"icon": "fa fa-desktop",
+		"technologies": "Ruby on Rails, JavaScript",
+		"title": "openSAP"
+	},
+	{
+		"from": "06/2013",
+		"html": "<p>I was hired to migrate the [Hasso Plattner Institute](https://www.hpi.uni-potsdam.de/)'s [alumni Web portal](https://www.hpi-alumni.de/) to a new host. This involved setting up a new server, relocating files and databases, as well as upgrading the legacy Web application to more recent versions of Ruby on Rails and other utilized gems.</p>",
+		"icon": "fa fa-desktop",
+		"technologies": "Ruby on Rails",
+		"title": "HPI Alumni Portal",
+		"to": "08/2013"
+	},
+	{
+		"from": "07/2013",
+		"html": "<p>[iLink AR](http://www.ilinkar.de/) is a multi-platform Augmented Reality app, based on [Vuforia](https://www.vuforia.com/). In the early stage of this project I was involved in foundational research and back-end development.</p>",
+		"icon": "fa fa-desktop",
+		"technologies": "Vuforia, Ruby on Rails",
+		"title": "iLink AR",
+		"to": "09/2013"
+	},
+	{
+		"from": "08/2013",
+		"html": "<p>[Starlize](http://www.starlize.me/) is a mobile application which allows its users to easily create and share music videos. I was hired to customize Starlize's Django-based back-end application to match the project's content creation workflow. In order to enable convenient content administration I decided to extend the standard Django admin site by rich client-side functionality.</p>",
+		"icon": "fa fa-desktop",
+		"technologies": "Django, jQuery, RequireJS, Bootstrap",
+		"title": "Starlize Back-end Application",
+		"to": "10/2013"
+	},
+	{
+		"from": "09/2013",
+		"html": "<p>I built and currently maintain the API of [openSAP](https://open.sap.com/) which is consumed by [openSAP's iPad app](https://itunes.apple.com/app/opensap/id834570899).</p>",
+		"icon": "fa fa-cogs",
+		"technologies": "Ruby on Rails",
+		"title": "openSAP API"
+	},
+	{
+		"from": "10/2013",
+		"html": "<p>In the context of a [university seminar](https://epic.hpi.uni-potsdam.de/Home/InMemoryDataManagementResearchSeminar2013) I built a Ruby gem for the integration of stored procedures into Ruby on Rails applications running on [SAP HANA](http://www.saphana.com/). It enables procedure creation and deletion using database migrations, features a wrapper method approach for transparent procedure invocation, as well as submits automated Ruby-to-SQLScript translation for transforming existing Ruby methods into stored procedures.</p><p>I contributed parts of my solution to the [Active Record adapter for SAP HANA](https://github.com/SAP/activerecord-hana-adapter).</p>",
+		"icon": "fa fa-cogs",
+		"technologies": "Ruby on Rails, Active Record, HANA, SQLScript",
+		"title": "Stored Procedure Management for Ruby on Rails and HANA",
+		"to": "03/2014"
+	},
+	{
+		"from": "03/2014",
+		"html": "<p>Currently, I am building an educational mobile application on the subject of World War One. The project is based on [Appcelerator Titanium](http://www.appcelerator.com/titanium/) which allows to produce native apps for both Android and iOS from a single code base.</p>",
+		"icon": "fa fa-tablet",
+		"technologies": "Appcelerator Titanium, JavaScript",
+		"title": "Educational Mobile Application"
+	}
+]
