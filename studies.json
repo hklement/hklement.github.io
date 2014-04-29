@@ -3,7 +3,7 @@
 		"from": "10/2008",
 		"html": "<p>After fulfilling my civilian service, I started studying software engineering at the [Hasso Plattner Institute](https://www.hpi.uni-potsdam.de/) in Potsdam. During my studies I gained practical experience and research skills. I specialized in Internet technologies and human-machine interfaces. I received my bachelor's degree in 2011.</p>",
 		"icon": "icon-graduation-cap",
-		"title": "Bachelor's degree program",
+		"title": "Bachelor's Degree Program",
 		"to": "09/2011"
 	},
 	{
@@ -17,7 +17,7 @@
 		"from": "10/2011",
 		"html": "<p>With the objective to attain a master's degree, I continued my studies at the [Hasso Plattner Institute](https://www.hpi.uni-potsdam.de/). I specialized in Internet technologies, operating systems, and information systems. Along the way, I gained insights into in-memory databases, embedded systems, parallel programming, metaprogramming, and model-based refactorings, among other things.</p>",
 		"icon": "icon-graduation-cap",
-		"title": "Master's degree program"
+		"title": "Master's Degree Program"
 	},
 	{
 		"icon": "glyphicon glyphicon-book",
