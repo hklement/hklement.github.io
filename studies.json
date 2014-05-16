@@ -21,7 +21,7 @@
 	},
 	{
 		"icon": "glyphicon glyphicon-book",
-		"html": "<p>Currently, I am preparing my master's thesis, the last stage of my studies.</p>",
+		"html": "<p>Currently, I am preparing my master's thesis, the last stage of my studies. I am dealing with the question how to teach programming by means of Massive Open Online Courses, such as provided by [edX](https://www.edx.org/), [openHPI](https://openhpi.de/), and [openSAP](https://open.sap.com/).</p>",
 		"title": "Master's Thesis"
 	}
 ]
