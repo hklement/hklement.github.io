@@ -17,15 +17,15 @@
 	},
 	{
 		"from": "08/2012",
-		"html": "<p>The project I am longest involved in is [openHPI](https://openhpi.de/), the [Hasso Plattner Institute](https://www.hpi.uni-potsdam.de/)'s platform for Massive Open Online Courses. From the very beginning of the large-scale learning platform I am part of its core development team. Since openHPI's release, my area of responsibility comprises platform evolution and maintenance.</p>",
+		"html": "<p>The project I am longest involved in is [openHPI](https://openhpi.de/), the [Hasso Plattner Institute](https://www.hpi.uni-potsdam.de/)'s platform for massive open online courses. From the very beginning of the large-scale learning platform I am part of its core development team. Since openHPI's release, my area of responsibility comprises platform evolution and maintenance.</p>",
 		"icon": "fa fa-desktop",
 		"technologies": "Ruby on Rails, JavaScript",
 		"title": "openHPI.de"
 	},
 	{
 		"from": "10/2012",
-		"html": "<p>Following a programming competition (see below), I worked for [Medule](http://www.medule.de/) in order to evolve the competition-winning app prototype into a full-fledged mobile application, which is called [Vitule](http://www.medule.de/apps/vituleapp/). In this scope, I extended the prototype app's synchronization features, improved its robustness and usability, as well as implemented Medule's corporate design.</p>",
-		"icon": "fa fa-tablet",
+		"html": "<p>Following the programming competition, I worked for [Medule](http://www.medule.de/) in order to evolve the competition-winning app prototype into a full-fledged mobile application, which is called [Vitule](http://www.medule.de/apps/vituleapp/). In this scope, I extended the prototype app's synchronization features, improved its robustness and usability, as well as implemented Medule's corporate design.</p>",
+		"icon": "fa fa-android",
 		"technologies": "Android, HL7",
 		"title": "Vitule",
 		"to": "03/2013"
@@ -35,14 +35,16 @@
 		"html": "<p>In 2013, openHPI started a Chinese spin-off, [openHPI.cn](https://openhpi.cn/). I was commissioned to customize the established [German openHPI platform](https://openhpi.de/) for the Chinese market, as well as to handle the deployment.</p>",
 		"icon": "fa fa-desktop",
 		"technologies": "Ruby on Rails, JavaScript",
-		"title": "openHPI.cn"
+		"title": "openHPI.cn",
+		"to": "08/2014"
 	},
 	{
 		"from": "03/2013",
-		"html": "<p>[openSAP](https://open.sap.com/), [SAP](http://www.sap.com/)'s platform for Massive Open Online Courses, is another [openHPI](https://openhpi.de/) spin-off. I was appointed to customize the openHPI platform to SAP's requirements and currently maintain the award-winning learning platform.</p>",
+		"html": "<p>[openSAP](https://open.sap.com/), [SAP](http://www.sap.com/)'s platform for massive open online courses, is another [openHPI](https://openhpi.de/) spin-off. I was appointed to customize the openHPI platform to SAP's requirements and currently maintain the award-winning learning platform.</p>",
 		"icon": "fa fa-desktop",
 		"technologies": "Ruby on Rails, JavaScript",
-		"title": "openSAP"
+		"title": "openSAP",
+		"to": "08/2014"
 	},
 	{
 		"from": "06/2013",
@@ -73,7 +75,8 @@
 		"html": "<p>I built and currently maintain the API of [openSAP](https://open.sap.com/) which is consumed by [openSAP's iPad app](https://itunes.apple.com/app/opensap/id834570899).</p>",
 		"icon": "fa fa-cogs",
 		"technologies": "Ruby on Rails",
-		"title": "openSAP API"
+		"title": "openSAP API",
+		"to": "07/2014"
 	},
 	{
 		"from": "10/2013",
@@ -85,9 +88,10 @@
 	},
 	{
 		"from": "03/2014",
-		"html": "<p>Currently, I am building an educational mobile application on the subject of World War One. The project is based on [Appcelerator Titanium](http://www.appcelerator.com/titanium/) which allows to produce native apps for both Android and iOS from a single code base.</p>",
+		"html": "<p>I built [Lost Generation](http://www.lost-generation.eu/), an educational mobile application on the subject of World War One, for [Killing & Ress GbR](http://www.killingress.io/). The application is available for free in [Apple's App Store](https://itunes.apple.com/us/app/lost-generation/id935320886) and [Google's Play Store](https://play.google.com/store/apps/details?id=de.volksbund.lostgeneration).</p>",
 		"icon": "fa fa-tablet",
 		"technologies": "Appcelerator Titanium, JavaScript",
-		"title": "Educational Mobile Application"
+		"title": "Lost Generation",
+		"to": "10/2014"
 	}
 ]
