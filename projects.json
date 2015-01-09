@@ -88,7 +88,7 @@
 	},
 	{
 		"from": "03/2014",
-		"html": "<p>I built [Lost Generation](http://www.lost-generation.eu/), an educational mobile application on the subject of World War One, for [Killing & Ress GbR](http://www.killingress.io/). The application is available for free in [Apple's App Store](https://itunes.apple.com/us/app/lost-generation/id935320886) and [Google's Play Store](https://play.google.com/store/apps/details?id=de.volksbund.lostgeneration).</p>",
+		"html": "<p>I built [Lost Generation](http://www.lost-generation.eu/), an educational mobile application on the subject of World War One, for [Marvin Killing und Christian Reß Playtesting GbR](http://www.killingress.io/). The application is available for free in [Apple's App Store](https://itunes.apple.com/us/app/lost-generation/id935320886) and [Google's Play Store](https://play.google.com/store/apps/details?id=de.volksbund.lostgeneration).</p>",
 		"icon": "fa fa-tablet",
 		"technologies": "Appcelerator Titanium, JavaScript",
 		"title": "Lost Generation",
