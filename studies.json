@@ -22,7 +22,7 @@
 	{
 		"from": "06/2014",
 		"icon": "glyphicon glyphicon-book",
-		"html": "<p>As the final step of my studies, I wrote my master's thesis <i>A Versatile Platform for Practical Programming Exercises in Massive Open Online Courses</i>, which addresses the question how to teach programming by means of massive open online courses, such as provided by [edX](https://www.edx.org/), [openHPI](https://openhpi.de/), and [openSAP](https://open.sap.com/).</p><p>In this context, I built Code Ocean, a web-based platform for practical programming exercises, designed to meet the demands of novice programmers and to satisfy the inherent scalability requirements of large-scale e-learning environments.</p>",
+		"html": "<p>As the final step of my studies, I wrote my master's thesis <i>A Versatile Platform for Practical Programming Exercises in Massive Open Online Courses</i>, which addresses the question how to teach programming by means of massive open online courses, such as provided by [edX](https://www.edx.org/), [openHPI](https://openhpi.de/), and [openSAP](https://open.sap.com/).</p><p>In this context, I built [Code Ocean](https://github.com/openHPI/codeocean), a web-based platform for practical programming exercises, designed to meet the demands of novice programmers and to satisfy the inherent scalability requirements of large-scale e-learning environments.</p>",
 		"title": "Master's Thesis",
 		"to": "12/2014"
 	}
