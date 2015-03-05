@@ -18,7 +18,7 @@ Number.prototype.isEven = function() {
 
 	var buildTimeline = function(options) {
 		var ul = $('<ul />', {
-			class: 'timeline'
+			'class': 'timeline'
 		});
 		_.each(options.events, function(event, index) {
 			buildTimelineItem({
@@ -32,26 +32,26 @@ Number.prototype.isEven = function() {
 
 	var buildTimelineItem = function(options) {
 		var item = $('<li />', {
-			class: options.index.isEven() ? null : 'timeline-inverted'
+			'class': options.index.isEven() ? null : 'timeline-inverted'
 		});
 		var badge = $('<div />', {
-			class: 'timeline-badge'
+			'class': 'timeline-badge'
 		}).appendTo(item);
 		$('<i />', {
-			class: options.event.icon || DEFAULT_EVENT_ICON_CLASSES
+			'class': options.event.icon || DEFAULT_EVENT_ICON_CLASSES
 		}).appendTo(badge);
 		var panel = $('<div />', {
-			class: 'timeline-panel'
+			'class': 'timeline-panel'
 		}).appendTo(item);
 		var heading = $('<div />', {
-			class: 'timeline-heading'
+			'class': 'timeline-heading'
 		}).appendTo(panel);
 		$('<h3 />', {
-			class: 'timeline-title',
+			'class': 'timeline-title',
 			text: options.event.title
 		}).appendTo(heading);
 		$('<p />', {
-			class: 'text-muted',
+			'class': 'text-muted',
 			html: '<i class="fa fa-clock-o"></i>&nbsp;' + (options.event.from ? options.event.from + ' - ' : '') + (options.event.to || 'present')
 		}).appendTo(heading);
 		if (!_.contains(options.exclude, 'technologies')) {
@@ -60,7 +60,7 @@ Number.prototype.isEven = function() {
 			}).appendTo(heading);
 		}
 		$('<div />', {
-			class: 'timeline-body',
+			'class': 'timeline-body',
 			html: options.event.html
 		}).appendTo(panel);
 		return item;
