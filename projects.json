@@ -93,5 +93,12 @@
 		"technologies": "Appcelerator Titanium, JavaScript",
 		"title": "Lost Generation",
 		"to": "10/2014"
+	},
+	{
+		"from": "06/2014",
+		"html": "<p>In the context of my master's thesis, I built [Code Ocean](https://github.com/openHPI/codeocean), a web-based e-learning application that aims at teaching practical programming to novices.</p><p>After handing in my master's thesis, Code Ocean has been open-sourced.</p>",
+		"icon": "fa fa-desktop",
+		"technologies": "Ruby on Rails, JavaScript, Docker",
+		"title": "Code Ocean"
 	}
 ]
