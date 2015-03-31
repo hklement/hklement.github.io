@@ -6,6 +6,10 @@ body {
 	margin-top: 0.5em;
 }
 
+#portrait {
+  margin-bottom: 1em;
+}
+
 #profiles i {
 	font-size: 10em;
 }
