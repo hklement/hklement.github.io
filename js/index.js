@@ -77,7 +77,7 @@ Number.prototype.isEven = function() {
 						exclude: index === 0 ? [] : ['technologies']
 					});
 				},
-				url: element + '.json'
+				url: '/data/' + element + '.json'
 			});
 		});
 	};
