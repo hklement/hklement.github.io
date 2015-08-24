@@ -1,9 +1,8 @@
 minify:
-	yuicompressor css/fontello.css -o css/fontello.min.css
-	yuicompressor css/index.css -o css/index.min.css
-	yuicompressor css/timeline.css -o css/timeline.min.css
-	yuicompressor js/index.js -o js/index.min.js
+	cleancss css/fontello.css --output css/fontello.min.css
+	cleancss css/index.css --output css/index.min.css
+	cleancss css/timeline.css --output css/timeline.min.css
+	uglifyjs js/index.js --compress --mangle --output js/index.min.js
 
 install:
-	brew update
-	brew install yuicompressor
+	./install_dev_dependencies.sh
