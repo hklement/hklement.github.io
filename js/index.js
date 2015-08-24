@@ -1,7 +1,3 @@
-Number.prototype.isEven = function() {
-	return this % 2 === 0;
-};
-
 (function() {
 	var ANCHOR_REGEXP = /\[(.+?)\]\((.+?)\)/g;
 	var ANIMATION_DURATION = 500;

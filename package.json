@@ -2,6 +2,7 @@
   "private": true,
   "devDependencies": {
     "clean-css": "*",
+    "coffee-script": "*",
     "uglify-js": "*"
   }
 }
