@@ -1,0 +1,8 @@
+spec_dir: spec
+spec_files:
+  - '*_spec.js'
+src_files:
+  - spec/support/jquery-2.1.4.min.js
+  - js/application.min.js
+stylesheets:
+  - css/application.min.css
