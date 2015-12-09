@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /images/
-Disallow: /*.json
+Disallow: /data/*.json
