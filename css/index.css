@@ -1,9 +1,9 @@
 body {
-	padding-top: 50px;
+  padding-top: 50px;
 }
 
 #about-me li + li {
-	margin-top: 0.5em;
+  margin-top: 0.5em;
 }
 
 #portrait {
@@ -11,10 +11,10 @@ body {
 }
 
 #profiles i {
-	font-size: 10em;
+  font-size: 10em;
 }
 
 #sections h1 {
-	border-bottom: 1px dotted #CCC;
-	margin-bottom: 1em;
+  border-bottom: 1px dotted #CCC;
+  margin-bottom: 1em;
 }
