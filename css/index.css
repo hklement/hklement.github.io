@@ -18,3 +18,7 @@ body {
   border-bottom: 1px dotted #CCC;
   margin-bottom: 1em;
 }
+
+.jumbotron p {
+  margin-bottom: 5px;
+}
