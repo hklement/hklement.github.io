@@ -2,7 +2,7 @@
   {
     "from": "09/2011",
     "html": "<p>I started to work freelance at [Forkmerge](http://forkmerge.com/), the creators of the indie news aggregator [Newstral](https://newstral.com/). Newstral offers an up-to-date overview of the most relevant headlines, as well as a location-based press review.</p><p>I was involved into evolving Newstral's ancestor [DNND](http://www.dnnd.de/zombie/) into a modern web application. Part of my work was to implement a social news sharing feature, based on Facebook's [Graph API](https://developers.facebook.com/docs/graph-api/).</p><p>Newstral is still my favorite news aggregator and constantly evolving. If you don't know it yet, I highly recommend giving it a try.</p>",
-    "icon": "fa fa-desktop",
+    "icon": "fa fa-laptop",
     "technologies": "Ruby on Rails, CoffeeScript, PHP, Facebook Graph API",
     "title": "Newstral",
     "to": "04/2012"
@@ -18,7 +18,7 @@
   {
     "from": "08/2012",
     "html": "<p>The project I am longest involved in is [openHPI](https://openhpi.de/), the [Hasso Plattner Institute](https://www.hpi.uni-potsdam.de/)'s platform for massive open online courses. From the very beginning of the large-scale learning platform I am part of its core development team. Since openHPI's release, my area of responsibility comprises platform evolution and maintenance.</p>",
-    "icon": "fa fa-desktop",
+    "icon": "fa fa-laptop",
     "technologies": "Ruby on Rails, JavaScript",
     "title": "openHPI.de",
     "to": "03/2015"
@@ -34,7 +34,7 @@
   {
     "from": "01/2013",
     "html": "<p>In 2013, openHPI started a Chinese spin-off, [openHPI.cn](https://openhpi.cn/). I was commissioned to customize the established [German openHPI platform](https://openhpi.de/) for the Chinese market, as well as to handle the deployment.</p>",
-    "icon": "fa fa-desktop",
+    "icon": "fa fa-laptop",
     "technologies": "Ruby on Rails, JavaScript",
     "title": "openHPI.cn",
     "to": "08/2014"
@@ -42,7 +42,7 @@
   {
     "from": "03/2013",
     "html": "<p>[openSAP](https://open.sap.com/), [SAP](http://www.sap.com/)'s platform for massive open online courses, is another [openHPI](https://openhpi.de/) spin-off. I was appointed to customize the openHPI platform to SAP's requirements and currently maintain the award-winning learning platform.</p>",
-    "icon": "fa fa-desktop",
+    "icon": "fa fa-laptop",
     "technologies": "Ruby on Rails, JavaScript",
     "title": "openSAP",
     "to": "08/2014"
@@ -50,7 +50,7 @@
   {
     "from": "06/2013",
     "html": "<p>I was hired to migrate the [Hasso Plattner Institute](https://www.hpi.uni-potsdam.de/)'s [alumni web portal](https://www.hpi-alumni.de/) to a new host. This involved setting up a new server, relocating files and databases, as well as upgrading the legacy web application to more recent versions of Ruby on Rails and other utilized gems.</p>",
-    "icon": "fa fa-desktop",
+    "icon": "fa fa-laptop",
     "technologies": "Ruby on Rails",
     "title": "HPI Alumni Portal",
     "to": "08/2013"
@@ -58,7 +58,7 @@
   {
     "from": "07/2013",
     "html": "<p>[iLink AR](http://www.ilinkar.de/) is a multi-platform Augmented Reality app, based on [Vuforia](https://www.vuforia.com/). In the early stage of this project I was involved in foundational research and back-end development.</p>",
-    "icon": "fa fa-desktop",
+    "icon": "fa fa-laptop",
     "technologies": "Vuforia, Ruby on Rails",
     "title": "iLink AR",
     "to": "09/2013"
@@ -66,7 +66,7 @@
   {
     "from": "08/2013",
     "html": "<p>[Starlize](http://www.starlize.me/) is a mobile application which allows its users to easily create and share music videos. I was hired to customize Starlize's Django-based back-end application to match the project's content creation workflow. In order to enable convenient content administration I decided to extend the standard Django admin site by rich client-side functionality.</p>",
-    "icon": "fa fa-desktop",
+    "icon": "fa fa-laptop",
     "technologies": "Django, jQuery, RequireJS, Bootstrap",
     "title": "Starlize Back-end Application",
     "to": "10/2013"
@@ -74,7 +74,7 @@
   {
     "from": "09/2013",
     "html": "<p>I built and currently maintain the API of [openSAP](https://open.sap.com/) which is consumed by [openSAP's iPad app](https://itunes.apple.com/app/opensap/id834570899).</p>",
-    "icon": "fa fa-cogs",
+    "icon": "fa fa-exchange",
     "technologies": "Ruby on Rails",
     "title": "openSAP API",
     "to": "07/2014"
@@ -98,7 +98,7 @@
   {
     "from": "06/2014",
     "html": "<p>In the context of my master's thesis, I built [Code Ocean](https://github.com/openHPI/codeocean), a web-based e-learning application that aims at teaching practical programming to novices.</p><p>After handing in my master's thesis, Code Ocean has been open-sourced.</p>",
-    "icon": "fa fa-desktop",
+    "icon": "fa fa-laptop",
     "technologies": "Ruby on Rails, JavaScript, Docker",
     "title": "Code Ocean"
   }

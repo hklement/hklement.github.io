@@ -52,7 +52,7 @@
     }).appendTo(heading);
     if (!_.contains(options.exclude, 'technologies')) {
       $('<p />', {
-        html: '<i class="fa fa-rocket"></i>&nbsp;' + options.event.technologies
+        html: '<i class="fa fa-flask"></i>&nbsp;' + options.event.technologies
       }).appendTo(heading);
     }
     $('<div />', {
