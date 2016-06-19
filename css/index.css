@@ -14,6 +14,16 @@ body {
   margin-top: 1em;
 }
 
+#profiles li {
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+
+#profiles li:hover {
+  transform: rotate(30deg) scale(0.5);
+}
+
 #profiles i {
   font-size: 10em;
 }
