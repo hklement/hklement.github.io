@@ -128,10 +128,16 @@
     $('a.navbar-brand, ul.nav li a').on('click', function(event) {
       event.preventDefault();
       var hash = this.hash;
+      var offset = $(hash).offset() ? $(hash).offset().top - 50 : 0;
+
       $('body, html').animate({
-        scrollTop: $(hash).offset() ? $(hash).offset().top : 0
+        scrollTop: offset
       }, ANIMATION_DURATION, function() {
-        window.location.hash = hash;
+        if (history.pushState) {
+          history.pushState(null, null, hash);
+        } else {
+          window.location.hash = hash;
+        }
       });
     });
   };
