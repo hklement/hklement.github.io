@@ -1,4 +1,5 @@
 clean:
+	rm -f js/index.js
 	rm -f js/util.js
 	rm -f spec/*_spec.js
 
