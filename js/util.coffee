@@ -1,2 +1,2 @@
 Number.prototype.isEven = ->
-	this % 2 == 0
+  this % 2 == 0
