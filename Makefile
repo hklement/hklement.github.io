@@ -7,6 +7,9 @@ compile:
 	coffee --compile js/
 	coffee --compile spec/
 
+lint:
+	coffeelint js/ spec/
+
 minify: compile
 	rm -f css/application.min.css
 	rm -f js/application.min.js

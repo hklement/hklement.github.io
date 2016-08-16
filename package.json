@@ -3,6 +3,7 @@
   "devDependencies": {
     "clean-css": "*",
     "coffee-script": "*",
+    "coffeelint": "*",
     "uglify-js": "*"
   }
 }
