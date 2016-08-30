@@ -8,8 +8,12 @@ describe 'index.coffee', ->
 
     spyOn($, 'get').and.callThrough()
 
-    $.ajax(url: 'js/util.js', dataType: 'script').then ->
-      $.ajax(url: 'js/index.js', dataType: 'script').then(done)
+    loadScript = (path) ->
+      $.ajax(url: path, dataType: 'script')
+
+    loadScript('js/time_frame.js').then ->
+      loadScript('js/util.js').then ->
+        loadScript('js/index.js').then(done)
 
   afterEach ->
     @$container.remove()

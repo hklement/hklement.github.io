@@ -6,6 +6,7 @@ spec:
 
 clean:
 	rm -f js/index.js
+	rm -f js/time_frame.js
 	rm -f js/util.js
 	rm -f spec/*_spec.js
 

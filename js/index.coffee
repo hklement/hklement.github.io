@@ -49,6 +49,7 @@ loadContent = ->
           container: $("##{section}")
           events: events.map (event) ->
             event.html = findAndReplaceLinks(event.html)
+            event.time_frame = new TimeFrame(event.from, event.to || new Date)
             event
 
 fetchContent = (section) ->
@@ -106,7 +107,8 @@ buildTimelineItemTitle = (event) ->
 
 buildTimelineItemTimeframe = (event) ->
   dates = [event.from, event.to || 'present']
-  $('<p>', class: 'text-muted', html: "<i class=\"fa fa-clock-o\"></i>&nbsp;#{dates.join(' - ')}")
+  html = "<i class=\"fa fa-clock-o\"></i>&nbsp;#{dates.join(' - ')} (#{event.time_frame.verbalize()})"
+  $('<p>', class: 'text-muted', html: html)
 
 buildTimelineItemTechnologies = (event) ->
   $('<p>', html: "<i class=\"fa fa-flask\"></i>&nbsp;#{event.technologies}")
