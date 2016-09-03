@@ -29,6 +29,9 @@ describe 'index.coffee', ->
     it 'renders timelines based on the fetched content', ->
       for $container in [$('#projects'), $('#studies')]
         expect($container.find('ul.timeline').length).toEqual(1)
+        expect($container.find('ul.timeline li .timeline-badge').length).toBeGreaterThan(1)
+        expect($container.find('ul.timeline li .timeline-panel .timeline-heading').length).toBeGreaterThan(1)
+        expect($container.find('ul.timeline li .timeline-panel .timeline-body').length).toBeGreaterThan(1)
 
     it 'sorts timeline items by recency', ->
       parseDate = ($item) ->
