@@ -2,28 +2,28 @@
   {
     "from": "10/2008",
     "html": "<p>After fulfilling my civilian service, I started studying software engineering at the [Hasso Plattner Institute](https://www.hpi.uni-potsdam.de/) in Potsdam.</p><p>During my studies, I gained practical experience and research skills. I specialized in Internet technologies and human-machine interfaces.</p><p>In 2011, I received my bachelor's degree with a final grade of 1.3.</p>",
-    "icon": "fa fa-graduation-cap",
+    "icon": "fa fa-university",
     "title": "Bachelor's Degree Program",
     "to": "09/2011"
   },
   {
     "from": "04/2011",
     "html": "<p>In my bachelor's thesis <em>Development Process with the Orca Web Framework</em>, I presented and evaluated the development process with [Orca](http://hpi.uni-potsdam.de/hirschfeld/projects/orca/index.html), a research web framework developed by a group of fellow students and me.</p><p>Orca enables single-language high-level web application development in Smalltalk by automatically translating client-side functionality to JavaScript and providing transparent bidirectional message passing for client-server communication.</p>",
-    "icon": "glyphicon glyphicon-book",
+    "icon": "fa fa-graduation-cap",
     "title": "Bachelor's Thesis",
     "to": "06/2011"
   },
   {
     "from": "10/2011",
     "html": "<p>With the objective to attain a master's degree, I continued my studies at the [Hasso Plattner Institute](https://www.hpi.uni-potsdam.de/).</p><p>I specialized in Internet technologies, operating systems, and information systems. Along the way, I gained insights into in-memory databases, embedded systems, parallel programming, metaprogramming, and e-learning, among other things.</p><p>In 2015, I happily received my master's degree with a final grade of 1.0.</p>",
-    "icon": "fa fa-graduation-cap",
+    "icon": "fa fa-university",
     "title": "Master's Degree Program",
     "to": "03/2015"
   },
   {
     "from": "06/2014",
-    "icon": "glyphicon glyphicon-book",
     "html": "<p>As the final step of my studies, I wrote my master's thesis <em>[A Versatile Platform for Practical Programming Exercises in Massive Open Online Courses](https://github.com/hklement/masters-thesis/blob/master/A%20Versatile%20Platform%20for%20Practical%20Programming%20Exercises%20in%20Massive%20Open%20Online%20Courses.pdf?raw=true)</em>, which addresses the question how to teach programming by means of massive open online courses, such as provided by [edX](https://www.edx.org/), [openHPI](https://openhpi.de/), and [openSAP](https://open.sap.com/).</p><p>In this context, I built [Code Ocean](https://github.com/openHPI/codeocean), a web-based platform for practical programming exercises, designed to meet the demands of novice programmers and to satisfy the inherent scalability requirements of large-scale e-learning environments.</p>",
+    "icon": "fa fa-graduation-cap",
     "title": "Master's Thesis",
     "to": "12/2014"
   }

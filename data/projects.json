@@ -82,7 +82,7 @@
   {
     "from": "10/2013",
     "html": "<p>In the context of a [university seminar](https://epic.hpi.uni-potsdam.de/Home/InMemoryDataManagementResearchSeminar2013) I built a Ruby gem for the integration of stored procedures into Ruby on Rails applications running on [SAP HANA](http://www.saphana.com/). It enables procedure creation and deletion using database migrations, features a wrapper method approach for transparent procedure invocation, as well as submits automated Ruby-to-SQLScript translation for transforming existing Ruby methods into stored procedures.</p><p>I contributed parts of my solution to the [Active Record adapter for SAP HANA](https://github.com/SAP/activerecord-hana-adapter).</p>",
-    "icon": "fa fa-cogs",
+    "icon": "fa fa-database",
     "technologies": "Ruby on Rails, Active Record, HANA, SQLScript",
     "title": "Stored Procedure Management for Ruby on Rails and HANA",
     "to": "03/2014"
