@@ -1,7 +1,7 @@
 .PHONY: spec
 
 spec:
-	coffee --compile js/ spec/
+	./node_modules/coffee-script/bin/coffee --compile js/ spec/
 	JASMINE_CONFIG_PATH=spec/jasmine.yml rake jasmine:ci; make clean
 
 clean:
@@ -14,12 +14,12 @@ install:
 	./install_dev_dependencies.sh
 
 lint:
-	coffeelint js/ spec/
+	./node_modules/coffeelint/bin/coffeelint js/ spec/
 
 minify:
 	rm -f css/application.min.css
 	cat css/*.css | cleancss --output css/application.min.css
 	rm -f js/application.min.js
-	coffee --compile js/
+	./node_modules/coffee-script/bin/coffee --compile js/
 	cat js/*.js | uglifyjs --compress --mangle --output js/application.min.js
 	make clean
