@@ -1,4 +1,4 @@
 language: ruby
-rvm: 2.3.1
+rvm: 2.5.1
 install: make install
 script: make spec
