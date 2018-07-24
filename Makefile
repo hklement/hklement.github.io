@@ -15,6 +15,7 @@ install:
 
 lint:
 	./node_modules/coffeelint/bin/coffeelint js/ spec/
+	./node_modules/csslint/dist/cli.js css/index.css css/timeline.css
 
 minify:
 	rm -f css/application.min.css

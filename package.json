@@ -4,6 +4,7 @@
     "clean-css": "*",
     "coffee-script": "*",
     "coffeelint": "*",
+    "csslint": "*",
     "uglify-js": "*"
   }
 }
