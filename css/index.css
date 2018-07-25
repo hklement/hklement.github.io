@@ -33,6 +33,34 @@ body {
   margin-bottom: 1em;
 }
 
+.collapsed-section {
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.collapsed-section::before {
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 1) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 1) 100%);
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 1) 100%);
+  background-image: -webkit-gradient(top, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 1) 100%);
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 1) 100%);
+  background-image: linear-gradient(top, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 1) 100%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 42;
+}
+
+.collapsed-section > .show-more {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 43;
+}
+
 .jumbotron p {
   margin-bottom: 5px;
 }

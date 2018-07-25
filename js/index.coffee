@@ -7,6 +7,7 @@ initialize = ->
   adaptIconWidth()
   handleMailtoLinks()
   scrollSmoothly()
+  initializeCollapsedSections()
   loadContent()
 
 adaptIconWidth = ->
@@ -40,6 +41,12 @@ assignHash = (hash) ->
     history.pushState(null, null, hash)
   else
     window.location.hash = hash
+
+initializeCollapsedSections = ->
+  $('.collapsed-section .show-more').on 'click', (event) ->
+    event.preventDefault()
+    $(event.target).parent('.collapsed-section').removeClass('collapsed-section')
+    $(event.target).remove()
 
 loadContent = ->
   for section in ['projects', 'studies']
