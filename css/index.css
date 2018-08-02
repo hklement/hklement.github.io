@@ -55,6 +55,7 @@ body {
 
 .collapsed-section > .show-more {
   bottom: 0;
+  display: none;
   left: 50%;
   position: absolute;
   transform: translateX(-50%);

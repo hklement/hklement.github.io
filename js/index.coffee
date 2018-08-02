@@ -52,6 +52,7 @@ loadContent = ->
   for section in ['projects', 'studies']
     do (section) ->
       fetchContent(section).then (events) ->
+        $("##{section} .show-more").show()
         renderTimeline
           container: $("##{section}")
           events: events.map (event) ->
