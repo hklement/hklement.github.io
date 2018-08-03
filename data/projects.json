@@ -26,7 +26,7 @@
   {
     "from": "10/2012",
     "html": "<p>Following the programming competition, I worked for [Medule](http://medule.de) in order to evolve the competition-winning app prototype into a full-fledged mobile application, which is called [Vitule](http://medule.de/apps/fuer_kliniken/vitule_app/). In this scope, I extended the prototype app's synchronization features, improved its robustness and usability, as well as implemented Medule's corporate design.</p>",
-    "icon": "fa fa-android",
+    "icon": "fa fa-tablet-alt",
     "technologies": "Android, HL7",
     "title": "Vitule",
     "to": "03/2013"
@@ -74,7 +74,7 @@
   {
     "from": "09/2013",
     "html": "<p>I built and currently maintain the API of [openSAP](https://open.sap.com/) which is consumed by [openSAP's iPad app](https://itunes.apple.com/app/opensap/id834570899).</p>",
-    "icon": "fa fa-exchange",
+    "icon": "fa fa-exchange-alt",
     "technologies": "Ruby on Rails",
     "title": "openSAP API",
     "to": "07/2014"
@@ -90,7 +90,7 @@
   {
     "from": "03/2014",
     "html": "<p>I built [Lost Generation](http://www.lost-generation.eu/), an educational mobile application on the subject of World War One, for [Marvin Killing und Christian Reß Playtesting GbR](http://www.killingress.io/). The application is available for free in [Apple's App Store](https://itunes.apple.com/us/app/lost-generation/id935320886) and [Google's Play Store](https://play.google.com/store/apps/details?id=de.volksbund.lostgeneration).</p>",
-    "icon": "fa fa-tablet",
+    "icon": "fa fa-tablet-alt",
     "technologies": "Appcelerator Titanium, JavaScript",
     "title": "Lost Generation",
     "to": "10/2014"
